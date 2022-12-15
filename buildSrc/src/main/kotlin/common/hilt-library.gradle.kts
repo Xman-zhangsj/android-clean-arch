@@ -20,7 +20,7 @@ import Libs
 
 plugins {
     id("common.base-android-library")
-    kotlin("kapt")
+    id("kotlin-kapt")
     id("dagger.hilt.android.plugin")
 }
 

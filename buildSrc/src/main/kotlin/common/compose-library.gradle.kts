@@ -21,7 +21,7 @@ import Versions
 
 plugins {
     id("common.base-android-library")
-    kotlin("kapt")
+    id("kotlin-kapt")
 }
 
 android {

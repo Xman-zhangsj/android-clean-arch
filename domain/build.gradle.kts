@@ -19,7 +19,7 @@ import Versions.javaVersion
 plugins {
     `java-library`
     kotlin("jvm")
-    kotlin("kapt")
+    id("kotlin-kapt")
 }
 
 val compileKotlin: org.jetbrains.kotlin.gradle.tasks.KotlinCompile by tasks
